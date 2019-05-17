@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Suporte</title>
+</head>
+
+<body>
+    <Section class="container">
+        <div id="link-config">
+            <img class="config-button" src="img/config-button.svg">
+        </div>
+        <img class="titulo" src="img/gvm-logo.png">
+
+        <div class="group">
+            <input type="text" class='campo-adicionar' id="nome" placeholder="Seu nome" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+        </div>
+
+        <div class="group">
+            <textarea rows="4" cols="50" id="motivo" placeholder="Motivo do Chamado"></textarea>
+            <button type="button" id="agendar">Agendar Suporte</button>
+            <button type="button" id="cancelar">Cancelar</button>
+
+        </div>
+    </Section>
+    <script>require('./js/index')</script>
+</body>
+
+</html>
